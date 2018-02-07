@@ -22,5 +22,3 @@ RUN pip --no-cache-dir install \
     h5py \
     pandas \
     pillow
-
-CMD ["sh", "-c", "jupyter notebook --allow-root"]
